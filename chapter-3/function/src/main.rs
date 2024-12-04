@@ -11,6 +11,11 @@ Statements and Expressions
 Rust is an expression-based language
 Statements are instructions that perform some action and do not return a value.
 Expressions evaluate to a resultant value. Let’s look at some examples.
+Expressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement, and it will then not return a value. Keep this in mind as you explore function return values and expressions next.
+
+Functions with Return Values
+We don’t name return values, but we must declare their type after an arrow (->)
+You can return early from a function by using the return keyword and specifying a value, but most functions return the last expression implicitly.
 
 */
 
